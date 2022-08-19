@@ -1,6 +1,6 @@
 # Product Design Website Landing Page UI
 
-`Name:` Deepak Singh
+`Name:` Rishabh Thakur
 
 This is the User-Interface of Landing page of a product Design website designed fully with `HTML` and `CSS`. The web page is fully responsive. The Landing page contains:
 
@@ -36,5 +36,5 @@ This is the User-Interface of Landing page of a product Design website designed 
 
 # Deployed Landing Page Link
 
-[Product Website Landing Page](https://product-websiteui.netlify.app/)
+[Product Website Landing Page](https://product-design-home-page.vercel.app)
 ***
