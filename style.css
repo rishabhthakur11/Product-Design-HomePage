@@ -1,0 +1,742 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Poppins';
+}
+
+body{
+    background-color: #111111;
+}
+
+.navbar{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-top:30px;
+    margin-bottom:30px;
+    margin-left:100px;
+    margin-right:100px;
+}
+
+.navbar .hamburger{
+    display:none;
+    color:white;
+}
+.navbar .right .list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:900px;
+    color:#ffffff;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.navbar .right .list .list-item .down-arrow{
+    width:10px;
+    
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin:70px; */
+}
+
+.header .left .model{
+    width:70%;
+
+}
+
+.header .right{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-left:50px;
+
+}
+
+.header .right .sub-head{
+    font-size: 26px;
+    color:#FF3343;
+}
+
+.header .right .head{
+    font-size: 80px;
+    color:#ffffff;
+}
+
+.header .right .details{
+    color:#ffffff;
+    width:600px;
+    line-height:20px;
+    margin-bottom:30px;
+    font-size: 18px;
+}
+
+.btn{
+    border:none;
+    height:60px;
+    width:180px;
+    font-size:16px;
+    text-transform: uppercase;
+    color:#ffffff;
+    background-color: #FF3343;
+    font-weight: 600;
+}
+
+.overview-section{
+    height:1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.overview-section .upper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:1250px;
+}
+
+.overview-section .upper .card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #1E1E1E;
+    height:300px;
+    width:250px;
+    padding:50px;
+    color:#ffffff;
+}
+
+.overview-section .upper .active-red{
+    background-color: #FF3343;
+   
+}
+
+
+.overview-section .upper .card .card-img{
+    width:60px;
+    margin-bottom:25px;
+}
+
+.overview-section .upper .card .card-head{
+    color:#ffffff;
+    font-weight: 500;
+}
+
+.overview-section .upper .card .card-details{
+    margin-top:20px;
+    color:#ffffff;
+    margin-bottom:20px;
+}
+
+.overview-section .upper .card .active-btn{
+    color:#ffffff;
+    border:none;
+    background-color: transparent;
+    /* color:#FF3343; */
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.overview-section .upper .card .active-btn .side-arrow img{
+    width:20px;
+    margin-top:10px;
+    margin-left:10px;
+}
+.card-btn{
+    border:none;
+    background-color: transparent;
+    color:#FF3343;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card-btn .side-arrow img{
+    width:20px;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+.light-black{
+    position:absolute;
+    left:0;
+    top:860px;
+    width:50%;
+    height:1000px;
+    background-color: #181818;
+    z-index:-1;
+}
+
+.overview-section .bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.overview-section .bottom .left{
+   text-align: center;
+   margin-right: 50px;
+   
+
+}
+
+.overview-section .bottom .left .head{
+    font-size: 80px;
+    color: #FF3343;
+    
+}
+
+.overview-section .bottom .left p{
+    color:#ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 0;
+
+}
+
+.overview-section .bottom .right{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.overview-section .bottom .right .box{
+    background-color: #1E1E1E;
+    padding-top:20px;
+    height:100px;
+    width:300px;
+    text-align: center;
+}
+
+.overview-section .bottom .right .box h1{
+    font-size: 38px;
+    color:#FF3343;
+}
+
+.overview-section .bottom .right .box p{
+    color:#ffffff;
+}
+
+.projects-overview{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.projects-overview .upper{
+
+ display:flex;
+ align-items: center;
+ justify-content: space-between;
+ width:1000px;
+ margin-top:30px;
+ margin-bottom:30px;
+}
+
+.projects-overview .upper .left{
+    text-transform: uppercase;
+    color:#ffffff;
+}
+
+.projects-overview .upper .left p{
+    font-size: 12px;
+}
+
+.projects-overview .down{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap:40px;
+    column-gap:40px;
+    
+    
+}
+
+.projects-overview .down .img-card{
+    padding:30px;
+}
+
+.projects-overview .down .img-card .img img{
+    width:380px;
+    height:200px;
+    
+}
+
+.projects-overview .down .img-card .img {
+    background-color: #1E1E1E;
+    width:450px;
+    height:350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-overview .down .img-card .caption h1{
+    color:#ffffff;
+
+}
+
+.projects-overview .down .img-card .caption{
+    margin-top:30px;
+    line-height: 35px;
+}
+
+.collab{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:200px;
+    width:1000px;
+    background-color: #1E1E1E;
+    padding:50px;
+}
+
+.collab .left{
+    width:700px
+}
+
+.collab .left h1{
+    font-size: 52px;
+    color:#ffffff;
+}
+
+.collab .left p{
+    font-size: 14px;
+    color: #ffffff;
+    margin-top:20px;
+    width:600px;
+}
+
+.footer{
+    margin-top:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    padding:30px;
+}
+
+.footer .upper{
+    padding-bottom:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    
+    
+
+}
+.footer .upper .list{
+    list-style:none;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    width:400px;
+    color:#ffffff;
+
+}
+
+.footer .lower{
+    display: flex;
+    align-items: center;
+    background-color: #343434;
+    justify-content: space-around;
+    margin:0;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+.footer .lower .social{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:200px;
+}
+
+@media only screen and (max-width:640px){
+
+    .navbar{
+        justify-content: space-around;
+        margin-left:0;
+        margin-right:0;
+
+    }
+
+    .navbar .right .list{
+        display:none;
+    }
+
+    .navbar .hamburger{
+        display:block;
+    }
+
+  .logo{
+        width:80px;
+    }
+
+    .header{
+        flex-direction: column;
+        /* margin:70px; */
+    }
+    
+    .header .right .sub-head{
+        font-size: 13px;
+        
+    }
+    
+    .header .right .head{
+        font-size: 40px;
+        
+    }
+    
+    .header .right .details{
+        width:90%;
+        font-size: 12px;
+    }
+
+    .btn{
+        height:40px;
+        width:120px;
+        font-size:12px;
+        font-weight: 400;
+    }
+
+    .overview-section{
+        
+        height: 100%;
+    
+    }
+    .overview-section .upper{
+        flex-direction: column;
+        width:90%;
+    }
+
+    .overview-section .upper .card{
+        margin-top: 20px;
+    }
+
+    .overview-section .bottom{
+        
+        flex-direction: column;
+        height: 100%;
+        
+    }
+
+    .overview-section .bottom .left{
+        margin-bottom:25px;
+        margin-left:0;
+        margin-right:0;
+    }
+
+    .overview-section .bottom .right{
+    
+        grid-template-columns: auto ;
+       
+    }
+
+    .projects-overview .upper{
+
+        justify-content: space-around;
+        width:100%;
+        margin-top:60px;
+        margin-bottom:60px;
+        
+       }
+
+       .projects-overview .upper .left h1{
+        font-size: 20px;
+    }
+
+       .projects-overview .upper .left p{
+        font-size: 8px;
+    }
+
+    .projects-overview .upper .btn{
+        font-size:8px;
+        height:30px;
+        width:80px;
+    }
+
+    .projects-overview .down{
+        grid-template-columns: auto;
+        column-gap:20px;
+        
+        
+    }
+
+    .projects-overview .down .img-card{
+        padding:30px;
+    }
+    
+    .projects-overview .down .img-card .img img{
+        width:300px;
+        height:150px;
+        
+    }
+    
+    .projects-overview .down .img-card .img {
+        width:300px;
+        height:20px;
+    }
+
+    .projects-overview .down .img-card .caption{
+        margin-top:75px;
+        line-height: 35px;
+    }
+       
+    .projects-overview .down .img-card .caption h1{
+        font-size:20px;
+    
+    }
+
+    .projects-overview .down .img-card .card-btn{
+        font-size:15px;
+    
+    }
+
+     .side-arrow{
+        width:10px;
+    }
+
+    .collab{
+       
+        flex-direction: column;
+        
+        height:100%;
+        width:100%;
+        
+        padding:20px;
+    }
+    
+    .collab .left{
+        width:100%;
+    }
+    
+    .collab .left h1{
+        font-size: 30px;
+        
+        margin:20px;
+    }
+    
+    .collab .left p{
+        font-size: 14px;
+        color: #ffffff;
+        margin:20px;
+        width:90%;
+    }
+
+    
+    .footer .upper .list{
+      
+        width:90%;
+        
+    
+    }
+
+    .footer .lower .social{
+      
+        width:35%;
+    }
+
+}
+
+@media only screen and (max-width:1100px) and (min-width:640px){
+
+    .navbar{
+        justify-content: space-around;
+        margin-left:0;
+        margin-right:0;
+
+    }
+
+    .navbar .right .list{
+        display:none;
+    }
+
+    .navbar .hamburger{
+        display:block;
+    }
+
+  .logo{
+        width:80px;
+    }
+
+    .header{
+        flex-direction: column;
+        /* margin:70px; */
+    }
+    
+    .header .right .sub-head{
+        font-size: 13px;
+        
+    }
+    
+    .header .right .head{
+        font-size: 40px;
+        
+    }
+    
+    .header .right .details{
+        width:90%;
+        font-size: 12px;
+    }
+
+    .btn{
+        height:40px;
+        width:120px;
+        font-size:12px;
+        font-weight: 400;
+    }
+
+    .overview-section{
+        
+        height: 100%;
+    
+    }
+    .overview-section .upper{
+        flex-direction: column;
+        width:90%;
+    }
+
+    .overview-section .upper .card{
+        margin-top: 20px;
+    }
+
+    .overview-section .bottom{
+        
+        flex-direction: column;
+        height: 100%;
+        
+    }
+
+    .overview-section .bottom .left{
+        margin-bottom:25px;
+        margin-left:0;
+        margin-right:0;
+    }
+
+    .overview-section .bottom .right{
+    
+        grid-template-columns: auto ;
+       
+    }
+
+    .projects-overview .upper{
+
+        justify-content: space-around;
+        width:100%;
+        margin-top:60px;
+        margin-bottom:60px;
+        
+       }
+
+       .projects-overview .upper .left h1{
+        font-size: 20px;
+    }
+
+       .projects-overview .upper .left p{
+        font-size: 8px;
+    }
+
+    .projects-overview .upper .btn{
+        font-size:8px;
+        height:30px;
+        width:80px;
+    }
+
+    .projects-overview .down{
+        grid-template-columns: auto;
+        column-gap:20px;
+        
+        
+    }
+
+    .projects-overview .down .img-card{
+        padding:30px;
+    }
+    
+    .projects-overview .down .img-card .img img{
+        width:300px;
+        height:150px;
+        
+    }
+    
+    .projects-overview .down .img-card .img {
+        width:300px;
+        height:20px;
+    }
+
+    .projects-overview .down .img-card .caption{
+        margin-top:75px;
+        line-height: 35px;
+    }
+       
+    .projects-overview .down .img-card .caption h1{
+        font-size:20px;
+    
+    }
+
+    .projects-overview .down .img-card .card-btn{
+        font-size:15px;
+    
+    }
+
+     .side-arrow{
+        width:10px;
+    }
+
+    .collab{
+       
+        flex-direction: column;
+        
+        height:100%;
+        width:100%;
+        
+        padding:20px;
+    }
+    
+    .collab .left{
+        width:100%;
+    }
+    
+    .collab .left h1{
+        font-size: 30px;
+        
+        margin:20px;
+    }
+    
+    .collab .left p{
+        font-size: 14px;
+        color: #ffffff;
+        margin:20px;
+        width:90%;
+    }
+
+    
+    .footer .upper .list{
+      
+        width:90%;
+        
+    
+    }
+
+    .footer .lower .social{
+      
+        width:35%;
+    }
+}
